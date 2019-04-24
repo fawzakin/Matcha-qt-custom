@@ -2,8 +2,8 @@
 
 set -e
 
-gh_repo="arc-kde"
-gh_desc="Arc KDE"
+gh_repo="matcha-kde"
+gh_desc="Matcha KDE"
 
 cat <<- EOF
 
@@ -39,31 +39,31 @@ _rm() {
 _download() {
     _msg "Getting the latest version from GitHub ..."
     wget -O "$temp_file" \
-        "https://github.com/PapirusDevelopmentTeam/$gh_repo/archive/$TAG.tar.gz"
-    _msg "Unpacking archive ..."
+        "https://github.com/PapirusDevelopmentTeam/$gh_repo/matchahive/$TAG.tar.gz"
+    _msg "Unpacking matchahive ..."
     tar -xzf "$temp_file" -C "$temp_dir"
 }
 
 _uninstall() {
     _msg "Deleting $gh_desc ..."
-    _rm "$PREFIX/share/aurorae/themes/Arc"
-    _rm "$PREFIX/share/aurorae/themes/Arc-Dark"
-    _rm "$PREFIX/share/color-schemes/Arc.colors"
-    _rm "$PREFIX/share/color-schemes/ArcDark.colors"
-    _rm "$PREFIX/share/konsole/Arc.colorscheme"
-    _rm "$PREFIX/share/konsole/ArcDark.colorscheme"
+    _rm "$PREFIX/share/aurorae/themes/Matcha"
+    _rm "$PREFIX/share/aurorae/themes/Matcha-Dark"
+    _rm "$PREFIX/share/color-schemes/Matcha.colors"
+    _rm "$PREFIX/share/color-schemes/MatchaDark.colors"
+    _rm "$PREFIX/share/konsole/Matcha.colorscheme"
+    _rm "$PREFIX/share/konsole/MatchaDark.colorscheme"
     _rm "$PREFIX/share/konversation/themes/papirus"
     _rm "$PREFIX/share/konversation/themes/papirus-dark"
-    _rm "$PREFIX/share/Kvantum/Arc"
-    _rm "$PREFIX/share/Kvantum/ArcDark"
-    _rm "$PREFIX/share/Kvantum/ArcDarker"
-    _rm "$PREFIX/share/plasma/desktoptheme/Arc-Dark"
-    _rm "$PREFIX/share/plasma/desktoptheme/Arc-Color"
-    _rm "$PREFIX/share/plasma/look-and-feel/com.github.varlesh.arc-dark"
-    _rm "$PREFIX/share/wallpapers/Arc"
-    _rm "$PREFIX/share/wallpapers/Arc-Dark"
-    _rm "$PREFIX/share/yakuake/skins/arc"
-    _rm "$PREFIX/share/yakuake/skins/arc-dark"
+    _rm "$PREFIX/share/Kvantum/Matcha"
+    _rm "$PREFIX/share/Kvantum/MatchaDark"
+    _rm "$PREFIX/share/Kvantum/MatchaDarker"
+    _rm "$PREFIX/share/plasma/desktoptheme/Matcha-Dark"
+    _rm "$PREFIX/share/plasma/desktoptheme/Matcha-Color"
+    _rm "$PREFIX/share/plasma/look-and-feel/com.github.varlesh.matcha-dark"
+    _rm "$PREFIX/share/wallpapers/Matcha"
+    _rm "$PREFIX/share/wallpapers/Matcha-Dark"
+    _rm "$PREFIX/share/yakuake/skins/matcha"
+    _rm "$PREFIX/share/yakuake/skins/matcha-dark"
 }
 
 _install() {
@@ -83,8 +83,8 @@ _install() {
 _cleanup() {
     _msg "Clearing cache ..."
     rm -rf "$temp_file" "$temp_dir" \
-        ~/.cache/plasma-svgelements-Arc* \
-        ~/.cache/plasma_theme_Arc*.kcache
+        ~/.cache/plasma-svgelements-Matcha* \
+        ~/.cache/plasma_theme_Matcha*.kcache
     _msg "Done!"
 }
 

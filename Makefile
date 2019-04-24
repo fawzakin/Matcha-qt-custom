@@ -15,31 +15,31 @@ install:
 	cp -R $(THEMES) $(DESTDIR)$(PREFIX)/share
 
 uninstall:
-	-rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Arc
-	-rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Arc-Dark
-	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Arc.colors
-	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/ArcDark.colors
-	-rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Arc.colorscheme
-	-rm -r  $(DESTDIR)$(PREFIX)/share/konsole/ArcDark.colorscheme
+	-rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Matcha
+	-rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Matcha-Dark
+	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha.colors
+	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/MatchaDark.colors
+	-rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matcha.colorscheme
+	-rm -r  $(DESTDIR)$(PREFIX)/share/konsole/MatchaDark.colorscheme
 	-rm -rf $(DESTDIR)$(PREFIX)/share/konversation/themes/papirus
 	-rm -rf $(DESTDIR)$(PREFIX)/share/konversation/themes/papirus-dark
-	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Arc
-	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/ArcDark
-	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/ArcDarker
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Arc-Color
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Arc-Dark
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.github.varlesh.arc-dark
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Arc
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Arc-Dark
-	-rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/arc
-	-rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/arc-dark
+	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha
+	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/MatchaDark
+	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/MatchaDarker
+	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matcha-Color
+	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matcha-Dark
+	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.github.varlesh.matcha-dark
+	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Matcha
+	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Matcha-Dark
+	-rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha
+	-rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha-dark
 
 _get_version:
 	$(eval VERSION := $(shell git show -s --format=%cd --date=format:%Y%m%d HEAD))
 	@echo $(VERSION)
 
 dist: _get_version
-	git archive --format=tar.gz -o $(notdir $(CURDIR))-$(VERSION).tar.gz master -- $(THEMES)
+	git matchahive --format=tar.gz -o $(notdir $(CURDIR))-$(VERSION).tar.gz master -- $(THEMES)
 
 release: _get_version
 	git tag -f $(VERSION)

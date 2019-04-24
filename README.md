@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/arc-kde/master/preview.png" alt="Preview Arc-Dark KDE"/>
-  <sup><sub>Screenshot Details: Engine: <a href="https://github.com/tsujan/Kvantum/tree/master/Kvantum">Kavntum</a> | Kvantum Theme: Arc Darker | Aurorae decoration: Arc Dark | Plasma Theme: Arc Dark | Icons: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus</a> | Dock: <a href="https://github.com/psifidotos/Latte-Dock">Latte Dock</a></sub></sup>
+  <img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/matcha-kde/master/preview.png" alt="Preview Matcha-Dark KDE"/>
+  <sup><sub>Screenshot Details: Engine: <a href="https://github.com/tsujan/Kvantum/tree/master/Kvantum">Kavntum</a> | Kvantum Theme: Matcha Darker | Aurorae decoration: Matcha Dark | Plasma Theme: Matcha Dark | Icons: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus</a> | Dock: <a href="https://github.com/psifidotos/Latte-Dock">Latte Dock</a></sub></sup>
 </p>
 
-Arc KDE - This is a port of the popular [GTK theme Arc](https://github.com/NicoHood/Arc-theme) for Plasma 5 desktop with a few additions and extras.
+Matcha KDE - This is a port of the popular [GTK theme Matcha](https://github.com/NicoHood/Matcha-theme) for Plasma 5 desktop with a few additions and extras.
 
 In this repository you'll find:
 
@@ -17,38 +17,38 @@ In this repository you'll find:
 - Wallpapers
 - Yakuake Skins
 
-**NOTE:** Plasma theme Arc Color now supports KDE Color Schemes with [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
+**NOTE:** Plasma theme Matcha Color now supports KDE Color Schemes with [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
 ## Installation
 
 ### Ubuntu and derivatives
 
-You can install arc-kde from our official [PPA](https://launchpad.net/~papirus/+archive/ubuntu/papirus):
+You can install matcha-kde from our official [PPA](https://launchpad.net/~papirus/+matchahive/ubuntu/papirus):
 
 ```
 sudo add-apt-repository ppa:papirus/papirus
 sudo apt-get update
-sudo apt-get install --install-recommends arc-kde
+sudo apt-get install --install-recommends matcha-kde
 ```
 
-or download .deb packages from [here](https://launchpad.net/~papirus/+archive/ubuntu/papirus/+packages?field.name_filter=arc-kde).
+or download .deb packages from [here](https://launchpad.net/~papirus/+matchahive/ubuntu/papirus/+packages?field.name_filter=matcha-kde).
 
-### Arc KDE Installer
+### Matcha KDE Installer
 
 Use the scripts to install the latest version directly from this repo (independently on your distro):
 
-**NOTE:** Use the same script to update Arc-KDE.
+**NOTE:** Use the same script to update Matcha-KDE.
 
 #### Install
 
 ```
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/arc-kde/master/install.sh | sh
+wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/matcha-kde/master/install.sh | sh
 ```
 
 #### Uninstall
 
 ```
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/arc-kde/master/install.sh | env uninstall=true sh
+wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/matcha-kde/master/install.sh | env uninstall=true sh
 ```
 
 ### Third-party packages
@@ -57,11 +57,11 @@ Packages in this section are not part of the official repositories. If you have 
 
 | **Distro** | **Maintainer**    | **Package** |
 |:-----------|:------------------|:------------|
-| Arch Linux | Bruno Pagani | `sudo pacman -S arc-kde kvantum-theme-arc` <sup>[[link](https://www.archlinux.org/packages/community/any/arc-kde/)]</sup> **<sup>[1]</sup>** |
-| Arch Linux | Marcus Behrendt | [arc-kde-git](https://aur.archlinux.org/packages/arc-kde-git) <sup>AUR</sup> |
-| Manjaro | Nikola Yanev | [arc-kde](http://download.tuxfamily.org/gericom/README.html) |
-| openSUSE | Konstantin Voinov | [arc-kde](https://software.opensuse.org/download.html?project=home:kill_it&package=arc-kde) <sup>OBS [[link](https://build.opensuse.org/package/show/home:kill_it/arc-kde)]</sub> |
-| Fedora | Robert-André Mauchin | `sudo dnf install arc-kde` <sup>[[link](https://src.fedoraproject.org/rpms/arc-kde)]</sup> |
+| Matchah Linux | Bruno Pagani | `sudo pacman -S matcha-kde kvantum-theme-matcha` <sup>[[link](https://www.matchahlinux.org/packages/community/any/matcha-kde/)]</sup> **<sup>[1]</sup>** |
+| Matchah Linux | Mmatchaus Behrendt | [matcha-kde-git](https://aur.matchahlinux.org/packages/matcha-kde-git) <sup>AUR</sup> |
+| Manjaro | Nikola Yanev | [matcha-kde](http://download.tuxfamily.org/gericom/README.html) |
+| openSUSE | Konstantin Voinov | [matcha-kde](https://software.opensuse.org/download.html?project=home:kill_it&package=matcha-kde) <sup>OBS [[link](https://build.opensuse.org/package/show/home:kill_it/matcha-kde)]</sub> |
+| Fedora | Robert-André Mauchin | `sudo dnf install matcha-kde` <sup>[[link](https://src.fedoraproject.org/rpms/matcha-kde)]</sup> |
 
 **<sup>[1]</sup>** This package does not contain Konversation themes.
 
@@ -71,14 +71,14 @@ Packages in this section are not part of the official repositories. If you have 
 
 - For better looking please use this pack with [Kvantum engine](https://github.com/tsujan/Kvantum/tree/master/Kvantum).
 
-  Run `kvantummanager` to choose and apply **Arc Darker** (or any other Arc) theme.
+  Run `kvantummanager` to choose and apply **Matcha Darker** (or any other Matcha) theme.
 
 - Install [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) for a more consistent and beautiful experience.
 
 ## Extras
 
-- [VLC Skin](https://github.com/varlesh/VLC-Arc-Dark) — Arc Dark skin for [VLC](http://www.videolan.org/vlc/)
-- [KDE-gaps](http://www.simonizor.gq/kde-gaps) — a modification of Arc-Dark that removes the title, window buttons, and makes the window decorations completely transparent
+- [VLC Skin](https://github.com/varlesh/VLC-Matcha-Dark) — Matcha Dark skin for [VLC](http://www.videolan.org/vlc/)
+- [KDE-gaps](http://www.simonizor.gq/kde-gaps) — a modification of Matcha-Dark that removes the title, window buttons, and makes the window decorations completely transparent
 
 ## Donate
 
