@@ -2,12 +2,12 @@
 widgetStyle=breeze
 
 [kdeglobals][General]
-ColorScheme=Matcha Dark
+ColorScheme=Matcha-Dark
 
 [kdeglobals][Icons]
 Theme=Papirus-Dark-Maia
 
-[plasmmarc][Theme]
+[plasmarc][Theme]
 name=Matcha-Dark
 
 [kwinrc][org.kde.kdecoration2]

@@ -8,7 +8,7 @@ ColorScheme=Matcha
 Theme=Papirus-Maia
 
 [plasmarc][Theme]
-name=Matcha Color
+name=Matcha-Color
 
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.kwin.aurorae
