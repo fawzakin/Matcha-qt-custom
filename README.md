@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://gitlab.com/cscs/matcha-kde/raw/master/preview.png" alt="Preview Matcha-Dark KDE"/>
-  <sup><sub> Color Palette: Matcha | Aurorae decoration: Matcha Dark | Plasma Theme: Matcha Dark | Icons: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus-Adapta-Nokto-Maia</a></sub></sup>
+  <sup><sub> Color Palette: Matcha Dark | Aurorae decoration: Matcha Dark | Plasma Theme: Matcha Dark | Icons: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus-Adapta-Nokto-Maia</a></sub></sup>
 </p>
 
 Matcha KDE - This is a port of the popular [GTK theme Matcha](https://github.com/NicoHood/Matcha-theme) for Plasma 5 desktop with a few additions and extras.
