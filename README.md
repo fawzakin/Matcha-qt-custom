@@ -30,13 +30,13 @@ Use the scripts to install the latest version directly from this repo (independe
 #### Install
 
 ```
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/matcha-kde/master/install.sh | sh
+wget -qO- https://gitlab.com/cscs/matcha-kde/raw/master/install.sh | sh
 ```
 
 #### Uninstall
 
 ```
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/matcha-kde/master/install.sh | env uninstall=true sh
+wget -qO- https://gitlab.com/cscs/matcha-kde/raw/master/install.sh | env uninstall=true sh
 ```
 
 <!-- ## Donate
