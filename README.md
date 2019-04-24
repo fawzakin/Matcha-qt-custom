@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://gitlab.com/cscs/matcha-kde/raw/master/preview.png" alt="Preview Matcha-Dark KDE"/>
-  <sup><sub>Screenshot Details: Engine: <a href="https://github.com/tsujan/Kvantum/tree/master/Kvantum">Kavntum</a> | Kvantum Theme: Matcha Darker | Aurorae decoration: Matcha Dark | Plasma Theme: Matcha Dark | Icons: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus</a> | Dock: <a href="https://github.com/psifidotos/Latte-Dock">Latte Dock</a></sub></sup>
+  <sup><sub> Color Palette: Matcha | Aurorae decoration: Matcha Dark | Plasma Theme: Matcha Dark | Icons: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus-Adapta-Nokto-Maia</a></sub></sup>
 </p>
 
 Matcha KDE - This is a port of the popular [GTK theme Matcha](https://github.com/NicoHood/Matcha-theme) for Plasma 5 desktop with a few additions and extras.
@@ -16,8 +16,6 @@ In this repository you'll find:
 - Plasma Look-and-Feel Settings
 - Wallpapers
 - Yakuake Skins
-
-**NOTE:** Plasma theme Matcha Color now supports KDE Color Schemes with [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
 ## Installation
 
