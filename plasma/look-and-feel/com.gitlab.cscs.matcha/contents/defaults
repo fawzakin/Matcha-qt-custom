@@ -2,16 +2,16 @@
 widgetStyle=breeze
 
 [kdeglobals][General]
-ColorScheme=Matcha Dark
+ColorScheme=Matcha
 
 [kdeglobals][Icons]
-Theme=Papirus-Dark
+Theme=Papirus
 
 [plasmmatcha][Theme]
-name=Matcha-Dark
+name=Matcha
 
 [kwinrc][org.kde.kdecoration2]
-theme=__aurorae__svg__Matcha-Dark
+theme=__aurorae__svg__Matcha
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
