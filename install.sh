@@ -59,6 +59,7 @@ _uninstall() {
     _rm "$PREFIX/share/Kvantum/MatchaDarker"
     _rm "$PREFIX/share/plasma/desktoptheme/Matcha-Dark"
     _rm "$PREFIX/share/plasma/desktoptheme/Matcha-Color"
+    _rm "$PREFIX/share/plasma/look-and-feel/com.gitlab.cscs.matcha"
     _rm "$PREFIX/share/plasma/look-and-feel/com.gitlab.cscs.matcha-dark"
     _rm "$PREFIX/share/wallpapers/Matcha"
     _rm "$PREFIX/share/wallpapers/Matcha-Dark"
