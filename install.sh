@@ -17,7 +17,7 @@ cat <<- EOF
 
 
   $gh_desc
-  https://github.com/PapirusDevelopmentTeam/$gh_repo
+  https://gitlab.com/cscs/$gh_repo
 
 
 EOF
@@ -39,8 +39,8 @@ _rm() {
 _download() {
     _msg "Getting the latest version from GitHub ..."
     wget -O "$temp_file" \
-        "https://github.com/PapirusDevelopmentTeam/$gh_repo/matchahive/$TAG.tar.gz"
-    _msg "Unpacking matchahive ..."
+        "https://gitlab.com/cscs/$gh_repo/-/archive/master/matcha-kde-master.tar.gz"
+    _msg "Unpacking matcha archive ..."
     tar -xzf "$temp_file" -C "$temp_dir"
 }
 
@@ -59,7 +59,7 @@ _uninstall() {
     _rm "$PREFIX/share/Kvantum/MatchaDarker"
     _rm "$PREFIX/share/plasma/desktoptheme/Matcha-Dark"
     _rm "$PREFIX/share/plasma/desktoptheme/Matcha-Color"
-    _rm "$PREFIX/share/plasma/look-and-feel/com.github.varlesh.matcha-dark"
+    _rm "$PREFIX/share/plasma/look-and-feel/com.gitlab.cscs.matcha-dark"
     _rm "$PREFIX/share/wallpapers/Matcha"
     _rm "$PREFIX/share/wallpapers/Matcha-Dark"
     _rm "$PREFIX/share/yakuake/skins/matcha"
