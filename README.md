@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/matcha-kde/master/preview.png" alt="Preview Matcha-Dark KDE"/>
+  <img src="https://gitlab.com/cscs/matcha-kde/blob/master/preview.png" alt="Preview Matcha-Dark KDE"/>
   <sup><sub>Screenshot Details: Engine: <a href="https://github.com/tsujan/Kvantum/tree/master/Kvantum">Kavntum</a> | Kvantum Theme: Matcha Darker | Aurorae decoration: Matcha Dark | Plasma Theme: Matcha Dark | Icons: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus</a> | Dock: <a href="https://github.com/psifidotos/Latte-Dock">Latte Dock</a></sub></sup>
 </p>
 
