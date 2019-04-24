@@ -7,7 +7,7 @@ ColorScheme=Matcha
 [kdeglobals][Icons]
 Theme=Papirus-Maia
 
-[plasmmatcha][Theme]
+[plasmarc][Theme]
 name=Matcha
 
 [kwinrc][org.kde.kdecoration2]

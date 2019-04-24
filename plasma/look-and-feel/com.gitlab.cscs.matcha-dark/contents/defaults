@@ -7,7 +7,7 @@ ColorScheme=Matcha Dark
 [kdeglobals][Icons]
 Theme=Papirus-Dark-Maia
 
-[plasmmatcha][Theme]
+[plasmmarc][Theme]
 name=Matcha-Dark
 
 [kwinrc][org.kde.kdecoration2]
