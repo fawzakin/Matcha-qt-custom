@@ -28,7 +28,7 @@ uninstall:
 	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/MatchaDarker
 	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matcha-Color
 	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matcha-Dark
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.github.varlesh.matcha-dark
+	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.gitlab.cscs.matcha-dark
 	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Matcha
 	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Matcha-Dark
 	-rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha
@@ -39,7 +39,7 @@ _get_version:
 	@echo $(VERSION)
 
 dist: _get_version
-	git matchahive --format=tar.gz -o $(notdir $(CURDIR))-$(VERSION).tar.gz master -- $(THEMES)
+	git matcharchive --format=tar.gz -o $(notdir $(CURDIR))-$(VERSION).tar.gz master -- $(THEMES)
 
 release: _get_version
 	git tag -f $(VERSION)

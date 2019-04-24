@@ -7,14 +7,12 @@ gh_desc="Matcha KDE"
 
 cat <<- EOF
 
-
-
-        aaa                          kk   kk   ddddd     eeeeeee
-      aa   aa   rr rrrr     ccccc    kk kk     dd   dd   ee
-      aaaaaaa   rrr       cc         kkk       dd   dd   eeeee
-      aa   aa   rr        cc         kk kk     dd   dd   ee
-      aa   aa   rr          ccccc    kk   kk   ddddd     eeeeeee
-
+ __  __       _       _             _  ______  _____ 
+|  \/  | __ _| |_ ___| |__   __ _  | |/ /  _ \| ____|
+| |\/| |/ _` | __/ __| '_ \ / _` | | ' /| | | |  _|  
+| |  | | (_| | || (__| | | | (_| | | . \| |_| | |___ 
+|_|  |_|\__,_|\__\___|_| |_|\__,_| |_|\_\____/|_____|
+                                                     
 
   $gh_desc
   https://gitlab.com/cscs/$gh_repo
