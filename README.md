@@ -30,13 +30,17 @@ Use the scripts to install the latest version directly from this repo (independe
 #### Install
 
 ```
-wget -qO- https://gitlab.com/cscs/matcha-kde/raw/master/install.sh | sh
+curl -O https://gitlab.com/cscs/matcha-kde/raw/master/install.sh
+chmod +x install.sh
+./install.sh
 ```
 
 #### Uninstall
 
 ```
-wget -qO- https://gitlab.com/cscs/matcha-kde/raw/master/install.sh | env uninstall=true sh
+curl -O https://gitlab.com/cscs/matcha-kde/raw/master/install.sh
+chmod +x install.sh
+env uninstall=true ./install.sh
 ```
 
 <!-- ## Donate
