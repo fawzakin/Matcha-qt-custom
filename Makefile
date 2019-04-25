@@ -11,28 +11,28 @@ THEMES := $(filter-out $(IGNORE), $(THEMES))
 all:
 
 install:
-	mkdir -p $(DESTDIR)$(PREFIX)/share
-	cp -R $(THEMES) $(DESTDIR)$(PREFIX)/share
+	sudo mkdir -p $(DESTDIR)$(PREFIX)/share
+	sudo cp -R $(THEMES) $(DESTDIR)$(PREFIX)/share
 
 uninstall:
-	-rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Matcha
-	-rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Matcha-Dark
-	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha.colors
-	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Dark.colors
-	-rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matcha.colorscheme
-	-rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matcha-Dark.colorscheme
-	-rm -rf $(DESTDIR)$(PREFIX)/share/konversation/themes/papirus
-	-rm -rf $(DESTDIR)$(PREFIX)/share/konversation/themes/papirus-dark
-	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha
-	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Dark
-	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Darker
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matcha-Color
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matcha-Dark
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.gitlab.cscs.matcha-dark
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Matcha
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Matcha-Dark
-	-rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha
-	-rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha-dark
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Matcha
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Matcha-Dark
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Dark.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matcha.colorscheme
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matcha-Dark.colorscheme
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/konversation/themes/papirus
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/konversation/themes/papirus-dark
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Dark
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Darker
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matcha-Color
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matcha-Dark
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.gitlab.cscs.matcha-dark
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Matcha
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Matcha-Dark
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha-dark
 
 _get_version:
 	$(eval VERSION := $(shell git show -s --format=%cd --date=format:%Y%m%d HEAD))
