@@ -18,14 +18,14 @@ uninstall:
 	-rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Matcha
 	-rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Matcha-Dark
 	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha.colors
-	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/MatchaDark.colors
+	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Dark.colors
 	-rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matcha.colorscheme
-	-rm -r  $(DESTDIR)$(PREFIX)/share/konsole/MatchaDark.colorscheme
+	-rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matcha-Dark.colorscheme
 	-rm -rf $(DESTDIR)$(PREFIX)/share/konversation/themes/papirus
 	-rm -rf $(DESTDIR)$(PREFIX)/share/konversation/themes/papirus-dark
 	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha
-	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/MatchaDark
-	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/MatchaDarker
+	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Dark
+	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Darker
 	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matcha-Color
 	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matcha-Dark
 	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.gitlab.cscs.matcha-dark
