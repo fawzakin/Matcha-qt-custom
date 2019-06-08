@@ -1,6 +1,6 @@
 [%General]
 author=Alexey Varfolomeev
-comment=Matcha style
+comment=Matcha-Darker Aliz style
 left_tabs=true
 mirror_doc_tabs=true
 joined_tabs=true
@@ -66,7 +66,7 @@ light.color=#ffffff
 mid.light.color=#ffffff
 dark.color=#e7e8eb
 mid.color=#e7e8eb
-highlight.color=#2eb398
+highlight.color=#ee554d
 inactive.highlight.color=#4877b1
 text.color=#5c616c
 window.text.color=#5c616c
@@ -285,13 +285,18 @@ frame=true
 frame.bottom=4
 frame.left=4
 frame.right=4
+text.normal.color=#d3dae3
+text.focus.color=#d3dae3
+text.press.color=#d3dae3
+text.toggle.color=#d3dae3
+text.bold=false
 
 [ToolbarButton]
 frame.element=tbutton
 interior.element=tbutton
-indicator.element=arrow
-text.normal.color=#5c616c
-text.focus.color=#5c616c
+indicator.element=tarrow
+text.normal.color=#d3dae3
+text.focus.color=#d3dae3
 text.press.color=#ffffff
 text.toggle.color=#ffffff
 text.bold=false
@@ -349,8 +354,11 @@ frame.right=3
 
 [Menu]
 inherits=PanelButtonCommand
-text.focus.color=#ffffff
+text.normal.color=#d3dae3
+text.focus.color=#d3dae3
 text.press.color=#ffffff
+text.toggle.color=#ffffff
+text.bold=false
 frame.top=3
 frame.bottom=3
 frame.left=3
@@ -363,6 +371,10 @@ indicator.element=marrow
 text.focus.color=#ffffff
 text.press.color=#ffffff
 
+[MenuBar]
+inherits=PanelButtonCommand
+text.normal.color=#d3dae3
+
 [MenuBarItem]
 inherits=PanelButtonCommand
 interior.element=menubaritem
@@ -371,7 +383,11 @@ text.margin.top=3
 text.margin.bottom=3
 text.margin.left=5
 text.margin.right=5
+text.normal.color=#d3dae3
+text.focus.color=#d3dae3
 text.press.color=#ffffff
+text.toggle.color=#ffffff
+text.bold=false
 
 [StatusBar]
 inherits=Toolbar

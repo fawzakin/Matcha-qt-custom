@@ -1,6 +1,6 @@
 [%General]
 author=Alexey Varfolomeev
-comment=Matcha style
+comment=Matcha-Dark Azul style
 left_tabs=true
 mirror_doc_tabs=true
 joined_tabs=true
@@ -58,25 +58,24 @@ submenu_delay=250
 tree_branch_line=true
 
 [GeneralColors]
-window.color=#ffffff
-base.color=#ffffff
-alt.base.color=#ffffff
-button.color=#ffffff
-light.color=#ffffff
-mid.light.color=#ffffff
-dark.color=#e7e8eb
-mid.color=#e7e8eb
-highlight.color=#2eb398
-inactive.highlight.color=#4877b1
-text.color=#5c616c
-window.text.color=#5c616c
-button.text.color=#5c616c
-disabled.text.color=#a3a5ac
-tooltip.text.color=#5c616c
-highlight.text.color=#ffffff
+window.color=#353945
+base.color=#222b2e
+alt.base.color=#222b2e
+button.color=#444a58
+light.color=#222b2e
+mid.light.color=#222b2e
+dark.color=#2F343f
+mid.color=#2F343f
+highlight.color=#5294E2
+inactive.highlight.color=#4877B1
+text.color=#d3dae3
+window.text.color=#d3dae3
+button.text.color=#d3dae3
+disabled.text.color=#898d99
+tooltip.text.color=#d3dae3
+highlight.text.color=#d3dae3
 link.color=#4877B1
 link.visited.color=#7247b1
-progress.indicator.text.color=#ffffff
 
 [ItemView]
 inherits=PanelButtonCommand
@@ -85,8 +84,7 @@ interior.element=itemview
 frame=true
 interior=true
 text.iconspacing=3
-text.press.color=#ffffff
-text.toggle.color=#ffffff
+text.toggle.color=#ffffff 
 
 [RadioButton]
 inherits=PanelButtonCommand
@@ -111,8 +109,8 @@ frame=true
 
 [PanelButtonCommand]
 Interior=true
-text.normal.color=#5c616c
-text.focus.color=#5c616c
+text.normal.color=#d3dae3
+text.focus.color=#d3dae3
 text.press.color=#ffffff 
 text.toggle.color=#ffffff
 
@@ -120,9 +118,9 @@ text.toggle.color=#ffffff
 inherits=PanelButtonCommand
 interior.element=button
 frame.element=button
-text.normal.color=#5c616c
-text.focus.color=#5c616c
-text.press.color=#ffffff 
+text.normal.color=#d3dae3
+text.focus.color=#d3dae3
+text.press.color=#ffffff
 text.toggle.color=#ffffff
 
 [DockTitle]
@@ -227,10 +225,10 @@ frame.right=1
 frame=true
 interior=false
 indicator.size=8
-text.normal.color=#a1a1a1
-text.press.color=#5c616c
-text.press.color=#5c616c
-text.toggle.color=#5c616c
+text.normal.color=#898d99
+text.press.color=#ffffff
+text.press.color=#ffffff
+text.toggle.color=#ffffff
 
 [TabFrame]
 inherits=PanelButtonCommand
@@ -285,13 +283,18 @@ frame=true
 frame.bottom=4
 frame.left=4
 frame.right=4
+text.normal.color=#d3dae3
+text.focus.color=#d3dae3
+text.press.color=#ffffff
+text.toggle.color=#ffffff
+text.bold=false
 
 [ToolbarButton]
 frame.element=tbutton
 interior.element=tbutton
 indicator.element=arrow
-text.normal.color=#5c616c
-text.focus.color=#5c616c
+text.normal.color=#d3dae3
+text.focus.color=#d3dae3
 text.press.color=#ffffff
 text.toggle.color=#ffffff
 text.bold=false
@@ -334,8 +337,8 @@ frame.bottom=2
 frame.left=2
 frame.right=2
 text.margin=0
-text.normal.color=#ffffff
-text.focus.color=#ffffff
+text.normal.color=#d3dae3
+text.focus.color=#d3dae3
 text.press.color=#ffffff
 text.toggle.color=#ffffff
 text.bold=false
@@ -349,7 +352,7 @@ frame.right=3
 
 [Menu]
 inherits=PanelButtonCommand
-text.focus.color=#ffffff
+text.focus.color=#d3dae3
 text.press.color=#ffffff
 frame.top=3
 frame.bottom=3
@@ -358,9 +361,8 @@ frame.right=3
 
 [MenuItem]
 inherits=PanelButtonCommand
-interior.element=menuitem
-indicator.element=marrow
-text.focus.color=#ffffff
+indicator.size=8
+text.focus.color=#d3dae3
 text.press.color=#ffffff
 
 [MenuBarItem]
@@ -371,21 +373,20 @@ text.margin.top=3
 text.margin.bottom=3
 text.margin.left=5
 text.margin.right=5
-text.press.color=#ffffff
 
 [StatusBar]
 inherits=Toolbar
 frame.element=toolbar
 font.bold=true
-text.normal.color=#5c616c
+text.normal.color=#d3dae3
 frame=true
-frame.top=1
-frame.bottom=1
+frame.top=0
+frame.bottom=0
 
 [TitleBar]
 inherits=PanelButtonCommand
 frame=false
-interior.element=titlebar
+interior=false
 text.margin.top=2
 text.margin.bottom=2
 text.margin.left=3
@@ -402,33 +403,31 @@ text.margin.top=1
 text.margin.bottom=1
 text.margin.left=3
 text.margin.right=3
-text.toggle.color=#5c616c
+text.toggle.color=#ffffff
 
 [ToolboxTab]
 inherits=PanelButtonCommand
-text.normal.color=#5c616c
-text.press.color=#5c616c
-text.focus.color=#5c616c
+text.normal.color=#d3dae3
+text.press.color=#ffffff
+text.focus.color=#d3dae3
 
 [Hacks]
 transparent_dolphin_view=false
 blur_konsole=true
 transparent_ktitle_label=true
-transparent_menutitle=true
-respect_darkness=false
+transparent_menutitle=false
+respect_darkness=true
 kcapacitybar_as_progressbar=true
 force_size_grip=false
 iconless_pushbutton=true
 iconless_menu=false
 disabled_icon_opacity=100
-lxqtmainmenu_iconsize=22
+lxqtmainmenu_iconsize=0
 normal_default_pushbutton=true
-single_top_toolbar=true
+single_top_toolbar=false
 tint_on_mouseover=0
 transparent_pcmanfm_sidepane=false
 transparent_pcmanfm_view=false
-blur_translucent=true
-no_selection_tint=true
 
 [Window]
 interior=true

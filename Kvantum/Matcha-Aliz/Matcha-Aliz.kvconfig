@@ -1,6 +1,6 @@
 [%General]
 author=Alexey Varfolomeev
-comment=Matcha style
+comment=Matcha Aliz style
 left_tabs=true
 mirror_doc_tabs=true
 joined_tabs=true
@@ -66,7 +66,7 @@ light.color=#ffffff
 mid.light.color=#ffffff
 dark.color=#e7e8eb
 mid.color=#e7e8eb
-highlight.color=#2eb398
+highlight.color=#ee554d
 inactive.highlight.color=#4877b1
 text.color=#5c616c
 window.text.color=#5c616c
