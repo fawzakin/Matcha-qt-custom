@@ -58,10 +58,10 @@ submenu_delay=250
 tree_branch_line=true
 
 [GeneralColors]
-window.color=#353945
+window.color=#1b2224
 base.color=#222b2e
 alt.base.color=#222b2e
-button.color=#444a58
+button.color=#222b2e
 light.color=#222b2e
 mid.light.color=#222b2e
 dark.color=#2F343f
