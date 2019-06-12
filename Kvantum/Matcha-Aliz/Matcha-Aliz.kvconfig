@@ -74,7 +74,7 @@ button.text.color=#5c616c
 disabled.text.color=#a3a5ac
 tooltip.text.color=#5c616c
 highlight.text.color=#ffffff
-link.color=#4877B1
+link.color=#ee554d
 link.visited.color=#7247b1
 progress.indicator.text.color=#ffffff
 

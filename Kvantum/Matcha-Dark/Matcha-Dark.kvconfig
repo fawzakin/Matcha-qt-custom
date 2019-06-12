@@ -67,14 +67,14 @@ mid.light.color=#222b2e
 dark.color=#2F343f
 mid.color=#2F343f
 highlight.color=#5294E2
-inactive.highlight.color=#4877B1
+inactive.highlight.color=#2eb398
 text.color=#d3dae3
 window.text.color=#d3dae3
 button.text.color=#d3dae3
 disabled.text.color=#898d99
 tooltip.text.color=#d3dae3
 highlight.text.color=#d3dae3
-link.color=#4877B1
+link.color=#2eb398
 link.visited.color=#7247b1
 
 [ItemView]

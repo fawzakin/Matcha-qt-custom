@@ -67,14 +67,14 @@ mid.light.color=#ffffff
 dark.color=#e7e8eb
 mid.color=#e7e8eb
 highlight.color=#2eb398
-inactive.highlight.color=#4877b1
+inactive.highlight.color=#2eb398
 text.color=#5c616c
 window.text.color=#5c616c
 button.text.color=#5c616c
 disabled.text.color=#a3a5ac
 tooltip.text.color=#5c616c
 highlight.text.color=#ffffff
-link.color=#4877B1
+link.color=#2eb398
 link.visited.color=#7247b1
 progress.indicator.text.color=#ffffff
 
