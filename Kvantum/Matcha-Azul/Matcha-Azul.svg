@@ -182,7 +182,7 @@
   <path id="path7945" d="m 227.2385,689 -2.2462,0 0,2 2.2462,0 z m -4.4924,0 -2.2461,0 0,2 2.2461,0 z" style="opacity:0.2;fill:#000000;fill-opacity:1"/>
  </g>
  <g id="dial" transform="matrix(0.95744681,0,0,0.95744681,359.41894,401.51316)" style="fill-rule:evenodd;stroke:none">
-  <rect id="dial-handle-4" width="10.444" height="10.444" x="104.86" y="228.25" rx="5.222" ry="5.222" style="fill:none;stroke:#528bff;stroke-width:1.04444444;stroke-opacity:1"/>
+  <rect id="dial-handle-4" width="10.444" height="10.444" x="104.86" y="228.25" rx="5.222" ry="5.222" style="fill:none;stroke:#3497da;stroke-width:1.04444444;stroke-opacity:1"/>
  </g>
  <g id="dial-notches" transform="translate(-158.89134,3.5374383)" style="fill:#ffffff;fill-rule:evenodd;stroke:none">
   <rect id="rect6567" width="45" height="45" x="202.5" y="667.5" style="opacity:0"/>
