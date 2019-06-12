@@ -74,7 +74,11 @@ _uninstall() {
     sudo rm -rf "$PREFIX/share/wallpapers/Matcha"
     sudo rm -rf "$PREFIX/share/wallpapers/Matcha-Dark"
     sudo rm -rf "$PREFIX/share/yakuake/skins/matcha"
+    sudo rm -rf "$PREFIX/share/yakuake/skins/matcha-aliz"
+    sudo rm -rf "$PREFIX/share/yakuake/skins/matcha-azul"
     sudo rm -rf "$PREFIX/share/yakuake/skins/matcha-dark"
+    sudo rm -rf "$PREFIX/share/yakuake/skins/matcha-dark-aliz"
+    sudo rm -rf "$PREFIX/share/yakuake/skins/matcha-dark-azul"
 }
 
 _install() {

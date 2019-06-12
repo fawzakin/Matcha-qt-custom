@@ -42,7 +42,11 @@ uninstall:
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Matcha
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Matcha-Dark
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha-aliz
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha-azul
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha-dark
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha-dark-aliz
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha-dark-azul
 
 _get_version:
 	$(eval VERSION := $(shell git show -s --format=%cd --date=format:%Y%m%d HEAD))
