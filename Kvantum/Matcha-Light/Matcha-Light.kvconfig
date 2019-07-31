@@ -70,7 +70,7 @@ scrollable_menu=true
 submenu_delay=250
 
 [GeneralColors]
-window.color=#f7f7f7
+window.color=#e7e8eb
 base.color=white
 alt.base.color=#f8f8f8
 button.color=#ffffff
@@ -84,9 +84,9 @@ text.color=#303d41
 window.text.color=#303d41
 button.text.color=#303d41
 disabled.text.color=#303d4178
-tooltip.text.color=#eefcff
-highlight.text.color=#eefcff
-inactive.highlight.text.color=#eefcffcc
+tooltip.text.color=#1b2224
+highlight.text.color=#1b2224
+inactive.highlight.text.color=#1b2224cc
 link.color=#0057AE
 link.visited.color=#452886
 progress.indicator.text.color=white
