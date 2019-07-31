@@ -23,6 +23,9 @@ uninstall:
 	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Dark.colors
 	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Dark-Aliz.colors
 	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Dark-Azul.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Light.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Light-Aliz.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Light-Azul.colors
 	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matcha.colorscheme
 	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matcha-Dark.colorscheme
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/konversation/themes/papirus
