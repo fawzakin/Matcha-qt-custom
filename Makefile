@@ -36,6 +36,9 @@ uninstall:
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Dark
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Dark-Aliz
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Dark-Azul
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Light
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Light-Aliz
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Light-Azul
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matcha-Color
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matcha-Dark
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.gitlab.cscs.matcha
