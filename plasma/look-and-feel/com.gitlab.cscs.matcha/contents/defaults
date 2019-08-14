@@ -2,17 +2,17 @@
 widgetStyle=breeze
 
 [kdeglobals][General]
-ColorScheme=Matcha
+ColorScheme=Matchama
 
 [kdeglobals][Icons]
 Theme=Papirus-Maia
 
 [plasmarc][Theme]
-name=Matcha-Color
+name=Matchama-Color
 
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Matcha
+theme=__aurorae__svg__Matchama
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors

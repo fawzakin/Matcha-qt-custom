@@ -15,49 +15,49 @@ install:
 	sudo cp -R $(THEMES) $(DESTDIR)$(PREFIX)/share
 
 uninstall:
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Matcha
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Matcha-Dark
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Aliz.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Azul.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Dark.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Dark-Aliz.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Dark-Azul.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Light.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Light-Aliz.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matcha-Light-Azul.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matcha.colorscheme
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matcha-Dark.colorscheme
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Matchama
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Matchama-Dark
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama-Aliz.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama-Azul.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama-Dark.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama-Dark-Aliz.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama-Dark-Azul.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama-Light.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama-Light-Aliz.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama-Light-Azul.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matchama.colorscheme
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matchama-Dark.colorscheme
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/konversation/themes/papirus
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/konversation/themes/papirus-dark
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Aliz
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Azul
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Dark
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Dark-Aliz
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Dark-Azul
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Light
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Light-Aliz
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matcha-Light-Azul
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matcha-Color
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matcha-Dark
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.gitlab.cscs.matcha
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.gitlab.cscs.matcha-dark
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Matcha
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Matcha-Dark
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha-aliz
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha-azul
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha-dark
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha-dark-aliz
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matcha-dark-azul
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matchama
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matchama-Aliz
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matchama-Azul
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matchama-Dark
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matchama-Dark-Aliz
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matchama-Dark-Azul
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matchama-Light
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matchama-Light-Aliz
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matchama-Light-Azul
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matchama-Color
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matchama-Dark
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.gitlab.cscs.matchama
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.gitlab.cscs.matchama-dark
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Matchama
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Matchama-Dark
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matchama
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matchama-aliz
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matchama-azul
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matchama-dark
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matchama-dark-aliz
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/matchama-dark-azul
 
 _get_version:
 	$(eval VERSION := $(shell git show -s --format=%cd --date=format:%Y%m%d HEAD))
 	@echo $(VERSION)
 
 dist: _get_version
-	git matcharchive --format=tar.gz -o $(notdir $(CURDIR))-$(VERSION).tar.gz master -- $(THEMES)
+	git matchamarchive --format=tar.gz -o $(notdir $(CURDIR))-$(VERSION).tar.gz master -- $(THEMES)
 
 release: _get_version
 	git tag -f $(VERSION)

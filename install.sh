@@ -2,8 +2,8 @@
 
 set -e
 
-gh_repo="matcha-kde"
-gh_desc="Matcha KDE"
+gh_repo="matchama-kde"
+gh_desc="Matchama KDE"
 
 cat <<- EOF
 
@@ -39,49 +39,49 @@ _rm() {
 _download() {
     _msg "Getting the latest version from GitHub ..."
     wget -O "$temp_file" \
-        "https://gitlab.com/cscs/$gh_repo/-/archive/master/matcha-kde-master.tar.gz"
-    _msg "Unpacking matcha archive ..."
+        "https://gitlab.com/cscs/$gh_repo/-/archive/master/matchama-kde-master.tar.gz"
+    _msg "Unpacking matchama archive ..."
     tar -xzf "$temp_file" -C "$temp_dir"
 }
 
 _uninstall() {
     _msg "Deleting $gh_desc ..."
-    sudo rm -rf "$PREFIX/share/aurorae/themes/Matcha"
-    sudo rm -rf "$PREFIX/share/aurorae/themes/Matcha-Dark"
-    sudo rm -rf "$PREFIX/share/color-schemes/Matcha.colors"
-    sudo rm -rf "$PREFIX/share/color-schemes/Matcha-Aliz.colors"
-    sudo rm -rf "$PREFIX/share/color-schemes/Matcha-Azul.colors"
-    sudo rm -rf "$PREFIX/share/color-schemes/Matcha-Dark.colors"
-    sudo rm -rf "$PREFIX/share/color-schemes/Matcha-Dark-Aliz.colors"
-    sudo rm -rf "$PREFIX/share/color-schemes/Matcha-Dark-Azul.colors"
-    sudo rm -rf "$PREFIX/share/color-schemes/Matcha-Light.colors"
-    sudo rm -rf "$PREFIX/share/color-schemes/Matcha-Light-Aliz.colors"
-    sudo rm -rf "$PREFIX/share/color-schemes/Matcha-Light-Azul.colors"
-    sudo rm -rf "$PREFIX/share/konsole/Matcha.colorscheme"
-    sudo rm -rf "$PREFIX/share/konsole/Matcha-Dark.colorscheme"
+    sudo rm -rf "$PREFIX/share/aurorae/themes/Matchama"
+    sudo rm -rf "$PREFIX/share/aurorae/themes/Matchama-Dark"
+    sudo rm -rf "$PREFIX/share/color-schemes/Matchama.colors"
+    sudo rm -rf "$PREFIX/share/color-schemes/Matchama-Aliz.colors"
+    sudo rm -rf "$PREFIX/share/color-schemes/Matchama-Azul.colors"
+    sudo rm -rf "$PREFIX/share/color-schemes/Matchama-Dark.colors"
+    sudo rm -rf "$PREFIX/share/color-schemes/Matchama-Dark-Aliz.colors"
+    sudo rm -rf "$PREFIX/share/color-schemes/Matchama-Dark-Azul.colors"
+    sudo rm -rf "$PREFIX/share/color-schemes/Matchama-Light.colors"
+    sudo rm -rf "$PREFIX/share/color-schemes/Matchama-Light-Aliz.colors"
+    sudo rm -rf "$PREFIX/share/color-schemes/Matchama-Light-Azul.colors"
+    sudo rm -rf "$PREFIX/share/konsole/Matchama.colorscheme"
+    sudo rm -rf "$PREFIX/share/konsole/Matchama-Dark.colorscheme"
     sudo rm -rf "$PREFIX/share/konversation/themes/papirus"
     sudo rm -rf "$PREFIX/share/konversation/themes/papirus-dark"
-    sudo rm -rf "$PREFIX/share/Kvantum/Matcha"
-    sudo rm -rf "$PREFIX/share/Kvantum/Matcha-Aliz"
-    sudo rm -rf "$PREFIX/share/Kvantum/Matcha-Azul"
-    sudo rm -rf "$PREFIX/share/Kvantum/Matcha-Dark"
-    sudo rm -rf "$PREFIX/share/Kvantum/Matcha-Dark-Aliz"
-    sudo rm -rf "$PREFIX/share/Kvantum/Matcha-Dark-Azul"
-    sudo rm -rf "$PREFIX/share/Kvantum/Matcha-Light"
-    sudo rm -rf "$PREFIX/share/Kvantum/Matcha-Light-Aliz"
-    sudo rm -rf "$PREFIX/share/Kvantum/Matcha-Light-Azul"
-    sudo rm -rf "$PREFIX/share/plasma/desktoptheme/Matcha-Dark"
-    sudo rm -rf "$PREFIX/share/plasma/desktoptheme/Matcha-Color"
-    sudo rm -rf "$PREFIX/share/plasma/look-and-feel/com.gitlab.cscs.matcha"
-    sudo rm -rf "$PREFIX/share/plasma/look-and-feel/com.gitlab.cscs.matcha-dark"
-    sudo rm -rf "$PREFIX/share/wallpapers/Matcha"
-    sudo rm -rf "$PREFIX/share/wallpapers/Matcha-Dark"
-    sudo rm -rf "$PREFIX/share/yakuake/skins/matcha"
-    sudo rm -rf "$PREFIX/share/yakuake/skins/matcha-aliz"
-    sudo rm -rf "$PREFIX/share/yakuake/skins/matcha-azul"
-    sudo rm -rf "$PREFIX/share/yakuake/skins/matcha-dark"
-    sudo rm -rf "$PREFIX/share/yakuake/skins/matcha-dark-aliz"
-    sudo rm -rf "$PREFIX/share/yakuake/skins/matcha-dark-azul"
+    sudo rm -rf "$PREFIX/share/Kvantum/Matchama"
+    sudo rm -rf "$PREFIX/share/Kvantum/Matchama-Aliz"
+    sudo rm -rf "$PREFIX/share/Kvantum/Matchama-Azul"
+    sudo rm -rf "$PREFIX/share/Kvantum/Matchama-Dark"
+    sudo rm -rf "$PREFIX/share/Kvantum/Matchama-Dark-Aliz"
+    sudo rm -rf "$PREFIX/share/Kvantum/Matchama-Dark-Azul"
+    sudo rm -rf "$PREFIX/share/Kvantum/Matchama-Light"
+    sudo rm -rf "$PREFIX/share/Kvantum/Matchama-Light-Aliz"
+    sudo rm -rf "$PREFIX/share/Kvantum/Matchama-Light-Azul"
+    sudo rm -rf "$PREFIX/share/plasma/desktoptheme/Matchama-Dark"
+    sudo rm -rf "$PREFIX/share/plasma/desktoptheme/Matchama-Color"
+    sudo rm -rf "$PREFIX/share/plasma/look-and-feel/com.gitlab.cscs.matchama"
+    sudo rm -rf "$PREFIX/share/plasma/look-and-feel/com.gitlab.cscs.matchama-dark"
+    sudo rm -rf "$PREFIX/share/wallpapers/Matchama"
+    sudo rm -rf "$PREFIX/share/wallpapers/Matchama-Dark"
+    sudo rm -rf "$PREFIX/share/yakuake/skins/matchama"
+    sudo rm -rf "$PREFIX/share/yakuake/skins/matchama-aliz"
+    sudo rm -rf "$PREFIX/share/yakuake/skins/matchama-azul"
+    sudo rm -rf "$PREFIX/share/yakuake/skins/matchama-dark"
+    sudo rm -rf "$PREFIX/share/yakuake/skins/matchama-dark-aliz"
+    sudo rm -rf "$PREFIX/share/yakuake/skins/matchama-dark-azul"
 }
 
 _install() {
@@ -101,8 +101,8 @@ _install() {
 _cleanup() {
     _msg "Clearing cache ..."
     rm -rf "$temp_file" "$temp_dir" \
-        ~/.cache/plasma-svgelements-Matcha* \
-        ~/.cache/plasma_theme_Matcha*.kcache
+        ~/.cache/plasma-svgelements-Matchama* \
+        ~/.cache/plasma_theme_Matchama*.kcache
     _msg "Done!"
 }
 
