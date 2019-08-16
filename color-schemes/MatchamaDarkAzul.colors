@@ -89,8 +89,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=52,151,218
 
 [General]
-ColorScheme=Matchama-Dark-Azul
-Name=Matchama-Dark-Azul
+ColorScheme=MatchamaDarkAzul
+Name=MatchamaDarkAzul
 shadeSortColumn=true
 
 [KDE]

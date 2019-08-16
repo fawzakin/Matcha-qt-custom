@@ -10,8 +10,8 @@ IntensityEffect=0
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
 Color=112,111,110
-ColorAmount=0.025
-ColorEffect=2
+ColorAmount=0.9500000000000001
+ColorEffect=0
 ContrastAmount=0.1
 ContrastEffect=2
 Enable=true
@@ -84,8 +84,8 @@ ForegroundPositive=0,110,40
 ForegroundVisited=224,64,251
 
 [Colors:Window]
-BackgroundAlternate=245,245,245
-BackgroundNormal=247,247,247
+BackgroundAlternate=231,232,235
+BackgroundNormal=231,232,235
 DecorationFocus=52,151,218
 DecorationHover=52,151,218
 ForegroundActive=255,128,224
@@ -98,8 +98,8 @@ ForegroundPositive=0,110,40
 ForegroundVisited=224,64,251
 
 [General]
-ColorScheme=Matchama-Azul
-Name=Matchama-Azul
+ColorScheme=MatchamaLightAzul
+Name=MatchamaLightAzul
 shadeSortColumn=true
 
 [KDE]

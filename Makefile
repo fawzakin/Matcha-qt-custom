@@ -18,14 +18,14 @@ uninstall:
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Matchama
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Matchama-Dark
 	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama-Aliz.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama-Azul.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama-Dark.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama-Dark-Aliz.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama-Dark-Azul.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama-Light.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama-Light-Aliz.colors
-	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Matchama-Light-Azul.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/MatchamaAliz.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/MatchamaAzul.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/MatchamaDark.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/MatchamaDarkAliz.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/MatchamaDarkAzul.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/MatchamaLight.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/MatchamaLightAliz.colors
+	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/MatchamaLightAzul.colors
 	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matchama.colorscheme
 	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matchama-Dark.colorscheme
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/konversation/themes/papirus

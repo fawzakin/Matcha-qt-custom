@@ -21,8 +21,8 @@ IntensityEffect=0
 [Colors:Button]
 BackgroundAlternate=34,43,46
 BackgroundNormal=26,34,36
-DecorationFocus=238,85,77
-DecorationHover=238,85,77
+DecorationFocus=46,179,152
+DecorationHover=46,179,152
 ForegroundActive=60,232,206
 ForegroundInactive=102,106,115
 ForegroundLink=41,128,185
@@ -30,11 +30,11 @@ ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=211,218,227
 ForegroundPositive=39,174,96
-ForegroundVisited=238,85,77
+ForegroundVisited=46,179,152
 
 [Colors:Selection]
 BackgroundAlternate=29,153,243
-BackgroundNormal=238,85,77
+BackgroundNormal=46,179,152
 DecorationFocus=65,255,214
 DecorationHover=65,255,214
 ForegroundActive=252,252,252
@@ -49,8 +49,8 @@ ForegroundVisited=230,171,230
 [Colors:Tooltip]
 BackgroundAlternate=27,34,36
 BackgroundNormal=53,57,69
-DecorationFocus=238,85,77
-DecorationHover=238,85,77
+DecorationFocus=46,179,152
+DecorationHover=46,179,152
 ForegroundActive=60,232,206
 ForegroundInactive=102,106,115
 ForegroundLink=41,128,185
@@ -58,13 +58,13 @@ ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=211,218,227
 ForegroundPositive=39,174,96
-ForegroundVisited=238,85,77
+ForegroundVisited=46,179,152
 
 [Colors:View]
 BackgroundAlternate=34,43,46
 BackgroundNormal=34,43,46
-DecorationFocus=238,85,77
-DecorationHover=238,85,77
+DecorationFocus=46,179,152
+DecorationHover=46,179,152
 ForegroundActive=60,232,206
 ForegroundInactive=102,106,115
 ForegroundLink=41,128,185
@@ -72,13 +72,13 @@ ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=211,218,227
 ForegroundPositive=39,174,96
-ForegroundVisited=238,85,77
+ForegroundVisited=46,179,152
 
 [Colors:Window]
 BackgroundAlternate=27,34,36
 BackgroundNormal=27,34,36
-DecorationFocus=238,85,77
-DecorationHover=238,85,77
+DecorationFocus=46,179,152
+DecorationHover=46,179,152
 ForegroundActive=60,232,206
 ForegroundInactive=102,106,115
 ForegroundLink=41,128,185
@@ -86,11 +86,11 @@ ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
 ForegroundNormal=211,218,227
 ForegroundPositive=39,174,96
-ForegroundVisited=238,85,77
+ForegroundVisited=46,179,152
 
 [General]
-ColorScheme=Matchama-Dark-Aliz
-Name=Matchama-Dark-Aliz
+ColorScheme=MatchamaDark
+Name=MatchamaDark
 shadeSortColumn=true
 
 [KDE]
