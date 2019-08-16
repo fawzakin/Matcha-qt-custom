@@ -16,3 +16,6 @@ theme=__aurorae__svg__Matchama-Dark
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
+
+[kwinrc][WindowSwitcher]
+LayoutName=big_icons
