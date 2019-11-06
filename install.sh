@@ -8,12 +8,12 @@ gh_desc="Matchama KDE"
 cat <<- EOF
 
 
-M    M          t         h                  K  K   DDDD   EEEE  
-MM  MM   aaa    t    cc   h       aaa        K K    D   D  E     
-M MM M      a  ttt  c  c  hhhh       a       KK     D   D  EEE   
-M    M   aaaa   t   c     h   h   aaaa       K K    D   D  E     
-M    M  a   a   t   c  c  h   h  a   a       K  K   D   D  E     
-M    M   aaaa   tt   cc   h   h   aaaa       K   K  DDDD   EEEE                                
+M    M           t           h                                K  K   DDDD   EEEEE  
+MM  MM   aaa     t     ccc   h       aaa    m m    aaa        K K    D   D  E      
+M MM M      a  ttttt  c   c  hhhh       a  m m m      a       KK     D   D  EEE    
+M    M   aaaa    t    c      h   h   aaaa  m m m   aaaa       K K    D   D  E      
+M    M  a   a    t    c   c  h   h  a   a  m   m  a   a       K  K   D   D  E      
+M    M   aaaa    tt    ccc   h   h   aaaa  m   m   aaaa       K   K  DDDD   EEEEE  
 
 
   $gh_desc
