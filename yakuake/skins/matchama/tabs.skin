@@ -1,8 +1,8 @@
 [Description]
-Skin=Matchama-Azul
-Author=Alexey Varfolomeev
-Email=varlesh@gmail.com
-Web=https://github.com/varlesh/Matchama-Dark-KDE
+Skin=Matchama
+Author=cscs
+Web=https://github.com/cscs/Matchama-KDE
+#forked from work by Alexey Varfolomeev
 Icon=/icon.png
 
 [Tabs]

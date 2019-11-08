@@ -1,22 +1,22 @@
 [Description]
-Skin=Matchama-Dark
-Author=Alexey Varfolomeev
-Email=varlesh@gmail.com
-Web=https://github.com/varlesh/Matchama-Dark-KDE
+Skin=Matchama
+Author=cscs
+Web=https://github.com/cscs/Matchama-KDE
+#forked from work by Alexey Varfolomeev
 Icon=/icon.png
 
 [Border]
-red=46
-green=51
-blue=64
+red=164
+green=165
+blue=170
 width=0
 
 [Text]
 x=3
 y=18
-red=147
-green=150
-blue=158
+red=122
+green=127
+blue=139
 text=
 bold=true
 
