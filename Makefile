@@ -28,8 +28,8 @@ uninstall:
 	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/MatchamaLightAzul.colors
 	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matchama.colorscheme
 	-sudo rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Matchama-Dark.colorscheme
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/konversation/themes/papirus
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/konversation/themes/papirus-dark
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/konversation/themes/matchama
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/konversation/themes/matchama-dark
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matchama
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matchama-Aliz
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matchama-Azul
@@ -39,6 +39,8 @@ uninstall:
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matchama-Light
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matchama-Light-Aliz
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matchama-Light-Azul
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matchama-Adaptive-Colors
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matchama-Adaptive-Mono
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matchama-Color
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matchama-Dark
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.gitlab.cscs.matchama
