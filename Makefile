@@ -41,8 +41,12 @@ uninstall:
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Matchama-Light-Azul
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matchama-Adaptive-Colors
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matchama-Adaptive-Mono
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matchama-Color
-	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matchama-Dark
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matchama-DarkAliz-Colors
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matchama-DarkAliz-Mono
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matchama-DarkAzul-Colors
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matchama-DarkAzul-Mono
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matchama-DarkSea-Colors
+	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Matchama-DarkSea-Mono
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.gitlab.cscs.matchama
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.gitlab.cscs.matchama-dark
 	-sudo rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Matchama
