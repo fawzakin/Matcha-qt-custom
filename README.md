@@ -1,9 +1,19 @@
-<p align="center">
-  <img src="https://gitlab.com/cscs/matchama-kde/raw/master/preview.png" alt="Preview Matchama-Dark KDE"/>
-  <sup><sub> Color Palette: Matchama Dark | Aurorae decoration: Matchama Dark | Plasma Theme: Matchama Dark | Icons: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus-Dark-Maia</a></sub></sup>
-</p>
+# Matcha QT Custom [WIP]
+This repository contains my custom theme of Matcha QT theme (for QT5 apps and KDE Plasma) with Alice/Azure/Tea as recolor of Aliz/Azul/Sea and Amethyst as a newly-made purple accent. This repo doesn't include any vanilla color. Forked from [Matchama-KDE by cscs](https://gitlab.com/cscs/matchama-kde/).
 
-Matchama KDE - This is a port of the popular [GTK theme Matcha](https://github.com/NicoHood/Matcha-theme) for Plasma 5 desktop with a few additions and extras.
+[This theme is still WIP. Plasma, Yakuake, install.sh and Makefile are unchanged from upstream.]
+
+### Accent color comparason
+| Colors    | Upstream          | Custom                |
+| ---       | ---               | ---                   |
+| Red       | Aliz (#F0544C)    | Alice (#EF2929)       |
+| Blue      | Azul (#3498DB)    | Azure (#3465A4)       |
+| Green     | Sea (#2EB398)     | Tea (#73D216)         |
+| Purple    | None              | Amethyst (#75507B)    |
+
+<img src="https://raw.githubusercontent.com/fawzakin/Matcha-gtk-theme/imgs/compare.png" alt="Compare" width="390"/>  
+
+## Main Description
 
 In this repository you'll find:
 
@@ -14,16 +24,15 @@ In this repository you'll find:
 - Plasma Color Schemes
 - Plasma Desktop Themes
 - Plasma Look-and-Feel Settings
-- Wallpapers
 - Yakuake Skins
-
+ 
 ## Installation
 
-### Matchama KDE Installer
+### Matcha KDE Installer
 
 Use the scripts to install the latest version directly from this repo (independently on your distro):
 
-**NOTE:** Use the same script to update Matchama-KDE.
+**NOTE:** Use the same script to update Matcha-KDE.
 
 #### Install
 
@@ -41,12 +50,5 @@ chmod +x install.sh
 env uninstall=true ./install.sh
 ```
 
-### Donate  
-
-Everything is free, but you can donate using these:  
-
-<a href='https://ko-fi.com/X8X0VXZU' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> &nbsp; <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M2AWM9FUFTD52'><img height='36' style='border:0px;height:36px;' src='https://gitlab.com/cscs/resources/raw/master/paypalkofi.png' border='0' alt='Donate with Paypal' />  
-
-## License
-
-GNU GPL v3
+# License and Credit
+GNU GPL v3. See `AUTHORS` for all credits.
