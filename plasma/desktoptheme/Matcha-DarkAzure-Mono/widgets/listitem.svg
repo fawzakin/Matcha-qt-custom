@@ -386,63 +386,63 @@
      y="2"
      rx="0"
      ry="2.077"
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#8ae234;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <rect
      id="pressed-hint-top-margin"
      width="2"
      height="4"
      x="34"
      y="18"
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#8ae234;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <rect
      id="pressed-hint-bottom-margin"
      width="2"
      height="4"
      x="35"
      y="33"
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#8ae234;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <rect
      id="pressed-hint-left-margin"
      width="4"
      height="2"
      x="26"
      y="28"
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#8ae234;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <rect
      id="pressed-hint-right-margin"
      width="4"
      height="2"
      x="41"
      y="27"
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#8ae234;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <rect
      id="normal-hint-left-margin"
      width="4"
      height="2"
      x="30"
      y="70"
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#8ae234;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <rect
      id="normal-hint-top-margin"
      width="2"
      height="4"
      x="39"
      y="61"
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#8ae234;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <rect
      id="normal-hint-bottom-margin"
      width="2"
      height="4"
      x="39"
      y="76"
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#8ae234;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <rect
      id="normal-hint-right-margin"
      width="4"
      height="2"
      x="45"
      y="70"
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#8ae234;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <rect
      id="rect4052"
      width="40"
@@ -668,26 +668,26 @@
      height="7"
      x="91"
      y="102"
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#8ae234;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <rect
      id="section-hint-left-margin"
      width="7"
      height="2"
      x="60"
      y="78"
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#8ae234;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <rect
      id="section-hint-top-margin"
      width="2"
      height="7"
      x="91"
      y="45"
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#8ae234;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <rect
      id="section-hint-right-margin"
      width="7"
      height="2"
      x="117"
      y="79"
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#8ae234;fill-opacity:1;fill-rule:nonzero;stroke:none" />
 </svg>

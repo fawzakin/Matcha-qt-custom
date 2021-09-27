@@ -1,0 +1,13 @@
+#!/bin/bash
+for x in Matcha-Alice-* Matcha-Azire-*; do
+    cd $x
+    sed -i "/Name/s/=.*$/=${x}" metadata.desktop
+    rm AUTHORS LICENSE
+    cd icons
+    [[ $x == *"Alice"* ]] && sed -i "s/73d216/ef2929/g" *.svg
+    [[ $x == *"Azure"* ]] && sed -i "s/73d216/3465a4/g" *.svg
+    cd ../widgets
+    [[ $x == *"Alice"* ]] && sed -i "s/73d216/ef2929/g" *.svg
+    [[ $x == *"Azure"* ]] && sed -i "s/73d216/3465a4/g" *.svg
+    cd ../..
+done

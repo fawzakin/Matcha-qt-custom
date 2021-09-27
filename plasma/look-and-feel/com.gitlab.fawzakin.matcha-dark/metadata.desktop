@@ -1,0 +1,21 @@
+[Desktop Entry]
+Comment=Matcha Dark Custom Style
+
+Encoding=UTF-8
+Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
+Name=Matcha Dark Custom
+
+Type=Service
+
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=fawzakin
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-License=CCPL:by-sa
+X-KDE-PluginInfo-Name=com.gitlab.fawzakin.matcha-dark
+X-KDE-PluginInfo-Version=
+X-KDE-PluginInfo-Website=https://gitlab.com/fawzakin/matcha-qt-custom
+X-KDE-fallbackPackage=org.kde.breeze.desktop
+X-Plasma-MainScript=defaults
+#X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1167638,kns://plasma-themes.knsrc/api.kde-look.org/1167639,kns://aurorae.knsrc/api.kde-look.org/1167637,kns://icons.knsrc/api.kde-look.org/1166289
